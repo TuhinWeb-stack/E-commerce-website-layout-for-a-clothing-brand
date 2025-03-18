@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #847ad2, #FFB74D); /* Cool gradient background */
+}
+
+header {
+    background-color: #534bda; /* Change to a new vibrant color */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block; /* Change to inline-block for better spacing */
+    margin: 0 20px; /* Increase margin for better spacing */
+    font-size: 18px; /* Increase font size for better visibility */
+    font-family: 'Arial', sans-serif; /* Change font family for better aesthetics */
+    font-weight: bold; /* Make the font bold */
+    color: #73e397; /* Change text color for better contrast */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold; /* Make links bold */
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product-item {
+    border: 1px solid #e7b9b9; /* Change border color to a lighter shade */
+    border-radius: 10px; /* Make corners more rounded */
+    margin: 15px;
+    padding: 15px;
+    width: 220px; /* Slightly increase width */
+    text-align: center;
+    background-color: #b4d9c9; /* Light gray background for product items */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Increase shadow for depth */
+}
+
+footer {
+    background-color: #8165b1; /* Change footer background to a slightly lighter shade */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px; /* Slightly smaller font size */
+}
